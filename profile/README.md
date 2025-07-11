@@ -54,7 +54,41 @@
 <br/>
 
 <details>
-<summary>목차</summary>
+<summary><h1>서비스별 repository 바로가기</h1></summary>
+<div markdown="1">
+
+라이브 서비스 ([`vybz-live`](https://github.com/2-BackStage/vybz-live)) <br>
+라이브 채팅 서비스 ([`vybz-live-chat`](https://github.com/4-BackStage/vybz-live-chat)) <br>
+채팅 서비스 ([`vybz-chat`](https://github.com/4-BackStage/vybz-chat)) <br>
+피드 서비스 ([`vybz-feed`](https://github.com/4-BackStage/vybz-feed)) <br>
+피드 read 서비스 ([`vybz-feed-read`](https://github.com/4-BackStage/vybz-feed-read)) <br>
+집계 서비스 ([`vybz-aggregation`](https://github.com/4-BackStage/vybz-aggregation)) <br>
+알림 서비스 ([`vybz-notification`](https://github.com/4-BackStage/vybz-notification)) <br>
+팔로우 서비스 ([`vybz-follow`](https://github.com/4-BackStage/vybz-follow)) <br>
+유저 정보 서비스 ([`vybz-user-info`](https://github.com/4-BackStage/vybz-user-info)) <br>
+유저 정보 read 서비스 ([`vybz-user-info-read`](https://github.com/4-BackStage/vybz-user-info-read)) <br>
+버스커 정보 서비스 ([`vybz-busker-info`](https://github.com/4-BackStage/vybz-busker-info)) <br>
+버스커 정보 read 서비스 ([`vybz-busker-info-read`](https://github.com/4-BackStage/vybz-busker-info-read))  <br>
+관리자 서비스 ([`vybz-admin`](https://github.com/4-BackStage/vybz-admin))  <br>
+약관 서비스 ([`vybz-agreement`](https://github.com/4-BackStage/vybz-agreement))  <br>
+버스커 계정 서비스 ([`vybz-auth-busker`](https://github.com/4-BackStage/vybz-auth-busker))  <br>
+유저 계정 서비스 ([`vybz-auth-user`](https://github.com/4-BackStage/vybz-auth-user))  <br>
+후원/멤버십/정산 서비스 ([`vybz-support`](https://github.com/4-BackStage/vybz-support))  <br>
+결제 서비스 ([`vybz-payment`](https://github.com/4-BackStage/vybz-payment))  <br>
+댓글 서비스 ([`vybz-comment`](https://github.com/4-BackStage/vybz-comment))  <br>
+댓글 read 서비스 ([`vybz-comment-read`](https://github.com/4-BackStage/vybz-comment-read))  <br>
+좋아요 서비스 ([`vybz-like`](https://github.com/4-BackStage/vybz-like))  <br>
+검색 서비스 ([`vybz-search`](https://github.com/4-BackStage/vybz-search))  <br>
+gateway ([`vybz-gateway`](https://github.com/4-BackStage/vybz-gateway))  <br>
+eureka ([`vybz-eureka`](https://github.com/4-BackStage/vybz-eureka))  <br>
+
+</div>
+</details>
+
+<br>
+
+<details>
+<summary><h1>목차</h1></summary>
 <div markdown="1">
 
 1. [팀 소개](#teamintro)
@@ -229,15 +263,6 @@
 
 ## <span id="role">6. 역할 분담</span>
 <img width="800" alt="front" src="https://github.com/user-attachments/assets/a323315a-507c-4646-a8df-2ba61b94ac77">
-
-<br/>
-<p align="right"><a href="#top">(⬆️ Top)</a></p>
-
-
-## <span id="impression">7. 느낀 점</span>
-
-
-<br/>
 
 <br/>
 <p align="right"><a href="#top">(⬆️ Top)</a></p>
