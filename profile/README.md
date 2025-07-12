@@ -272,6 +272,13 @@ eureka ([`vybz-eureka`](https://github.com/4-BackStage/vybz-eureka))  <br>
 
 ### 🐶 동현 
 
+ 이번 Vybz 프로젝트는 Turborepo와 pnpm을 기반으로 모노레포 환경을 구축하여 3개의 독립적인 애플리케이션(admin, busker, user)을 효율적으로 관리하는 데 중점을 두었습니다.
+
+ packages 디렉토리에 UI 컴포넌트와 Tailwind CSS 설정 등 공통 모듈을 분리하여 코드 재사용성을 극대화했고, turbo run graph 명령으로 복잡한 의존성 관계를 시각화하며 구조를 분석했습니다. 또한 Husky, Commitlint, DeepSource를 연동한 자동화된 워크플로우를 도입하여 코드 품질을 체계적으로 관리했습니다. pre-commit 단계에서 린트와 타입 체크를 강제하고 커밋 메시지를 표준화했으며, 정적 분석 도구로 코드 복잡도를 정량적으로 측정하며 개선해 나갔습니다.
+ 
+ Next.js 환경에서는 TanStack Query를 적극적으로 활용하여 서버 상태 관리를 고도화했습니다. React Query Devtools를 통해 캐시 데이터의 생명주기를 직접 시각적으로 추적하며 staleTime과 cacheTime을 정밀하게 조절했고, 이를 통해 API 요청 빈도를 최적화했습니다.
+ 
+ next/bundle-analyzer로 빌드 결과물을 분석하여 불필요한 번들을 줄이고 의존성을 적절히 분배하여 초기 로딩 성능을 개선했습니다. 또한, WebSocket과 SSE를 직접 구현하여 실시간 통신기능을 구축하고, AWS S3 및 FCM과 같은 클라우드 서비스를 연동하며 확장성 높은 애플리케이션을 완성하는 경험을 쌓았습니다.
 
 ### 🐰 지호 
 이번 VYBZ 프로젝트를 통해 처음으로 CI/CD를 담당하게 되었으며, GitHub Actions, Docker, EC2 등을 연동하는 과정을 처음부터 직접 구성해보았다. 익숙하지 않아 시행착오도 많았고, 자동화가 생각처럼 매끄럽게 되지 않아 답답했던 순간도 있었지만, 하나씩 해결해 나가며 동작하는 과정을 눈으로 확인했을 때 큰 보람을 느꼈습니다.
