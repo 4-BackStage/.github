@@ -1,3 +1,6 @@
+<h1 align="center">🏆신세계 I&C 스파로스 아카데미 6기 2차 프로젝트 우수 상🏆</h1>
+<br>
+
 <h1 align="center">🎤 VYBZ 🎤</h1>
 
 <p align="center">
